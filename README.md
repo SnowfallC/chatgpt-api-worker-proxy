@@ -32,7 +32,7 @@ async function handleRequest(request) {
   return modifiedResponse;
 }
 ```
-不用点击get，404是正常的。然后点击下方的'保存并部署'
+不用点击get，404是正常的。然后点击下方的'保存并部署
 6.回到主页，点击左边最上面的网站，选择你刚买好的域名进去。点击左侧的workers路由。
 
 7.点击添加路由。上面的路由写 自定义名称.你的域名/*
@@ -46,7 +46,7 @@ openaiuse.openaiuse.bike/*
 8.在左边选择dns，点击添加记录，然后填写你刚刚的自定义名称，Ipv4填写2.2.2.2，打开代理，保存。
 
 恭喜！你已经成功代理了openai的api，代理地址就是https://openaiuse.openaiuse.bike/
-使用官方api时，替换掉官方的域名即可，例如
+使用官方api时，替换掉官方的域名，使用你的sk openai apikey即可，例如
 ```shell
 curl --location 'https://openaiuse.openaiuse.bike/v1/chat/completions' \
 --header 'Authorization: Bearer sk-xxxxxxxxxxxxxxx' \
