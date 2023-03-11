@@ -5,7 +5,9 @@
 第三步，进入workers，创建一个服务，起个名字，选左边http程序，创建服务。free计划。
 第四步，在workers的概述中选择你刚创建的服务，点击快速编辑。
 第五步，复制以下代码复制到左侧文本框
-'''
+```shell
+node -v
+```
 const TELEGRAPH_URL = 'https://api.openai.com';
 
 addEventListener('fetch', event => {
