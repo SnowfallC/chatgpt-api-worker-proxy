@@ -43,7 +43,7 @@ async function handleRequest(request) {
 
 6.回到主页，点击左边最上面的网站，选择你刚买好的域名进去。点击左侧的workers路由。
 
-![链接](https://github.com/SnowfallC/chatgpt-api-worker-proxy/blob/main/examples/work route.png)
+![链接](https://github.com/SnowfallC/chatgpt-api-worker-proxy/blob/main/examples/workroute.png)
 
 7.点击添加路由。上面的路由写 自定义名称.你的域名/*
 不可以省略/*
@@ -51,7 +51,7 @@ async function handleRequest(request) {
 ```shell
 openaiuse.openaiuse.bike/*
 ```
-![链接](https://github.com/SnowfallC/chatgpt-api-worker-proxy/blob/main/examples/add workers 2.png)
+![链接](https://github.com/SnowfallC/chatgpt-api-worker-proxy/blob/main/examples/addworkers2.png)
 下面选择你刚创建好的Workers。
 
 8.在左边选择dns，点击添加记录，然后填写你刚刚的自定义名称，Ipv4填写2.2.2.2，打开代理，保存。
