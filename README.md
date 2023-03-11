@@ -42,6 +42,7 @@ async function handleRequest(request) {
 不用点击get，404是正常的。然后点击下方的**保存并部署**
 
 6.回到主页，点击左边最上面的网站，选择你刚买好的域名进去。点击左侧的workers路由。
+
 ![链接](https://github.com/SnowfallC/chatgpt-api-worker-proxy/blob/main/examples/work route.png)
 
 7.点击添加路由。上面的路由写 自定义名称.你的域名/*
