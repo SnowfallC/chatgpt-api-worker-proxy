@@ -31,3 +31,22 @@ async function handleRequest(request) {
 第六步，回到主页，点击左边最上面的网站，选择你刚买好的域名进去。点击左侧的workers路由。
 第七步，点击添加路由。上面的路由写 自定义名称.你的域名/*
 不可以省略/*
+例如:你的路由名称自定义为 openaiuse，你的域名是 openaiuse.bike,那你的路由填写。#以下都以该设定为例
+```shell
+openaiuse.openaiuse.bike/*
+```
+下面选择你刚创建好的Workers。
+第八步，在左边选择dns，点击添加记录，然后填写你刚刚的自定义名称，Ipv4填写2.2.2.2，打开代理，保存。
+
+恭喜！你已经成功代理了openai的api，代理地址就是https://openaiuse.openaiuse.bike/
+使用官方api时，替换掉官方的域名即可，例如
+```shell
+curl --location 'https://openaiuse.openaiuse.bike/v1/chat/completions' \
+--header 'Authorization: Bearer sk-xxxxxxxxxxxxxxx' \
+--header 'Content-Type: application/json' \
+--data '{
+   "model": "gpt-3.5-turbo",
+  "messages": [{"role": "user", "content": "Hello!"}]
+ }'
+ ```
+ 大功告成！
