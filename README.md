@@ -1,4 +1,4 @@
-# chatgpt-api-worker-proxy
+# 中转chatGPT API绕过地区限制
 完整的教程，如何中转api在受限制区域连接chatgpt的api
 
 1.注册并登录，在右上角切换为简体中文。
